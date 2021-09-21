@@ -25,14 +25,6 @@ body{
     text-align: center;
 
 }
-.grp-info{
-    font-size: 15px;
-    position: absolute;
-    bottom: 20px;
-    left: 35px;
-    font-size: 15px;
-    text-align: left;
-}
 
 .title-index{
     position: absolute;
@@ -53,11 +45,23 @@ body{
     color: #fff;
 }
 
+.grp-title{
+    font-size: 15px;
+}
+
+.grp-info{
+    font-size: 13px;
+    position: absolute;
+    bottom: 20px;
+    left: 35px;
+    text-align: left;
+}
+
 .content{
     width: 80%;
     padding-left: 5rem;
     padding-right: 5rem;
-    overflow: scroll;
+    overflow-y: scroll;
     padding-block-end: 5rem;
     scroll-behavior: smooth;
 }
@@ -76,6 +80,7 @@ body{
 
   #table-table {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
     border-collapse: collapse;
     width: 60%;
   }
