@@ -10,13 +10,14 @@ body{
 }
 .title-col{
     display: flex;
+    position: relative;
     justify-content: center;
     padding-top: 10px;
     background: rgb(61, 60, 60);
     color: rgb(237, 231, 231);
     width: 23%;
     height: 100%;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .title-col .title{
     font-size: 22px;
@@ -24,13 +25,11 @@ body{
     text-align: center;
 
 }
-.title-col .grp-info{
+.grp-info{
     font-size: 15px;
     position: absolute;
     bottom: 20px;
     left: 35px;
-}
-.grp-info{
     font-size: 15px;
     text-align: left;
 }
@@ -41,7 +40,9 @@ body{
     text-align: left;
     top: 30%;
 }
-
+.sub-index{
+    overflow: hidden;
+}
 .sub-index ,.sub-index a{
     font-size: 15px;
     color: #cfcfcf;
