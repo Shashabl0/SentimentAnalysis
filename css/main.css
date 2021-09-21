@@ -16,7 +16,7 @@ body{
     color: rgb(237, 231, 231);
     width: 23%;
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .title-col .title{
     font-size: 22px;
@@ -36,9 +36,10 @@ body{
 }
 
 .title-index{
+    position: absolute;
     font-size: 18px;
-    
     text-align: left;
+    top: 30%;
 }
 
 .sub-index ,.sub-index a{
@@ -69,7 +70,7 @@ body{
     background: #f7f7f7;
     line-height: 1.21429em;
     margin-bottom: 10px;
-    overflow: scroll;
+    overflow-x: scroll;
   }
 
   #table-table {
