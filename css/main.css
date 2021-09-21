@@ -9,11 +9,14 @@ body{
     font-family: "Helvetica";
 }
 .title-col{
+    display: flex;
+    justify-content: center;
     padding-top: 10px;
     background: rgb(61, 60, 60);
     color: rgb(237, 231, 231);
     width: 23%;
     height: 100%;
+    overflow: hidden;
 }
 .title-col .title{
     font-size: 22px;
@@ -27,16 +30,14 @@ body{
     bottom: 20px;
     left: 35px;
 }
-.grp-info .grp-title{
+.grp-info{
     font-size: 15px;
-    font-weight: 600;
+    text-align: left;
 }
 
 .title-index{
-    position: relative;
     font-size: 18px;
-    margin-left: 30px;
-    margin-top: 150px;
+    
     text-align: left;
 }
 
@@ -68,6 +69,7 @@ body{
     background: #f7f7f7;
     line-height: 1.21429em;
     margin-bottom: 10px;
+    overflow: scroll;
   }
 
   #table-table {
