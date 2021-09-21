@@ -1,0 +1,7 @@
+# dataset
+data
+*.csv
+
+# ipynb
+preprocessing.ipynb
+*.sav
